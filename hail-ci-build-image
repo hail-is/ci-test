@@ -1,1 +1,1 @@
-alpine:latest
+gcr.io/broad-ctsa/alpine-bash:latest
