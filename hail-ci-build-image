@@ -1,1 +1,1 @@
-gcr.io/broad-ctsa/alpine-bash:latest
+google/cloud-sdk:alpine
