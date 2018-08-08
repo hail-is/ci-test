@@ -1,1 +1,2 @@
-sleep 30
+echo hi dan
+uname -a
