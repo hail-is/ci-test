@@ -1,7 +1,7 @@
 set +ex
 
 gcloud auth activate-service-account \
-  --key-file=/Users/dking/projects/hail-ci/ci-deploy-0-1--hail-is-ci-test.json
+  --key-file=/secrets/ci-deploy-0-1--hail-is-ci-test.json
 
 DEPLOY_SHA=$(git rev-parse HEAD)
 gsutil ls gs://hail-ci-test/${DEPLOY_SHA} || (
